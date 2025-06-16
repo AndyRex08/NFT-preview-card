@@ -245,8 +245,9 @@ img {
   }
 
   .mainContent {
-    width: 85vw;
-    margin: 0 auto;
+    width: 80vw;
+    margin-top: 0px;
+    margin-left: 5vw;
   }
 
   .iconContainer {
@@ -256,13 +257,18 @@ img {
     gap: 10px;
   }
 
-  .ETH, .threeClass {
-    width: 500%;
+  .ETH {
+    width: 50%;
     margin-left: 0;
   }
 
+  .threeClass {
+    margin-left: 70px;
+    width: 50%;
+  }
+
   .line {
-    width: 85vw;
+    width: 100%;
   }
 
   .creatorName {
