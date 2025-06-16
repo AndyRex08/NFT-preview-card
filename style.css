@@ -1,0 +1,208 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.container {
+  height: auto;
+  width: 20vw;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 15px;
+}
+
+.nftImage {
+  position: relative;
+  height: 36vh;
+  width: 18vw;
+  margin: 2vh 1vw;
+  border-radius: 15px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  cursor: pointer;
+}
+
+img {
+  height: 36vh;
+  width: 18vw;
+  display: block;
+  border-radius: 15px;
+}
+
+.iconView {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 255, 247, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  border-radius: 15px;
+}
+
+.iconView img{
+    width: 50px;
+    height: auto;
+}
+
+.nftImage:hover .iconView {
+  opacity: 1;
+}
+
+.mainContent {
+  height: auto;
+  width: 18vw;
+  margin: 0vh 1.5vw;
+}
+
+.mainContent h3 {
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  cursor: pointer;
+  /* margin-top: 30px; */
+}
+
+.mainContent h3:hover {
+  color: hsl(178, 100%, 50%);
+  transition: color 0.4s ease;
+  cursor: pointer;
+}
+
+.mainContent p {
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  font-weight: 200;
+  color: hsl(215, 51%, 70%);
+}
+
+.iconContainer {
+  margin-top: 30px;
+  width: 20vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ETH {
+  height: 20px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+}
+
+.ETH img {
+  height: 20px;
+  width: 12px;
+  color: hsl(178, 100%, 50%);
+  margin-right: 10px;
+}
+
+.ETH p {
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  font-weight: 200;
+  color: hsl(178, 100%, 50%);
+}
+
+.threeClass {
+  height: 20px;
+  width: 150px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.threeClass img {
+  height: 20px;
+  width: 20px;
+  color: hsl(215, 51%, 70%);
+  margin-right: 5px;
+}
+
+.threeClass p {
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  font-weight: 200;
+  color: hsl(215, 51%, 70%);
+}
+
+.line {
+  height: 1px;
+  width: 17vw;
+  margin: 10px 0px 0px 0px;
+  background-color: hsl(215, 32%, 27%);
+}
+
+.creatorName {
+  width: 18vw;
+  height: 5vh;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.creatorName img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+.creatorName p {
+  margin-left: 15px;
+  color: hsl(0, 0%, 100%);
+}
+
+.creatorName p:hover {
+  color: hsl(178, 100%, 50%);
+  transition: color 0.4s ease;
+  cursor: pointer;
+}
+
+.creation {
+  color: hsl(215, 51%, 70%);
+}
+
+.attribution {
+  margin-top: 20px;
+  margin-left: 25px;
+  margin-bottom: 10px;
+  width: 20vw;
+  height: 4vh;
+  font-size: 11px; 
+  text-align: left; 
+}
+
+.attribution a{
+  text-decoration: none;
+  color: hsl(228, 91%, 58%);
+}
+
+.attribution a:hover{
+  color: hsl(51, 73%, 50%);
+}
+
+.frontEnd {
+  color: white;
+  font-size: 13px;
+  font-family: "Outfit", sans-serif;
+}
+
+.codedBy {
+  color: white;
+  font-size: 13px;
+  font-family: "Outfit", sans-serif;
+}
